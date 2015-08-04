@@ -1,8 +1,6 @@
 package DiamondExercises;
 
-import java.util.Scanner;
-
-public class IsoscelesTriangle extends Diamond{
+public class IsoscelesTriangle extends Diamond {
 
     @Override
     public void draw() {

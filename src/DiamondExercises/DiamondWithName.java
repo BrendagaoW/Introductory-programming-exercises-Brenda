@@ -1,6 +1,6 @@
 package DiamondExercises;
 
-public class DiamondWithName extends Diamond{
+public class DiamondWithName extends Diamond {
 
     @Override
     public void draw() {
