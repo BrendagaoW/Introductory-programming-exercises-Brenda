@@ -20,7 +20,7 @@ public abstract class Diamond {
     }
 
     public static void main(String args[]) {
-        Diamond diamond = new RealDiamond();
+        Diamond diamond = new DiamondWithName();
         diamond.setNumber();
         diamond.draw();
     }

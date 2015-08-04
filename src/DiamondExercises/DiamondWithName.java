@@ -1,12 +1,13 @@
 package DiamondExercises;
 
-public class RealDiamond extends Diamond {
+public class DiamondWithName extends Diamond{
+
     @Override
     public void draw() {
         int number = getNumber();
 
         int count = 1;
-        for (int i = 0; i < number; ++i) {
+        for (int i = 0; i < number-1; ++i) {
             for (int j = 1; j < number-i; ++j) {
                 System.out.print(" ");
             }
@@ -17,7 +18,8 @@ public class RealDiamond extends Diamond {
             count += 2;
         }
 
-        count -= 4;
+        System.out.println("Brenda");
+        count -= 2;
         for (int i = number; i > 0; --i) {
             for (int j = 0; j <= number-i; ++j) {
                 System.out.print(" ");
