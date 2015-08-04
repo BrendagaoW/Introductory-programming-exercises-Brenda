@@ -20,7 +20,7 @@ public abstract class Diamond {
     }
 
     public static void main(String args[]) {
-        Diamond diamond = new IsoscelesTriangle();
+        Diamond diamond = new RealDiamond();
         diamond.setNumber();
         diamond.draw();
     }
